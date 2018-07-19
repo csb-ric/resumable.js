@@ -341,6 +341,8 @@
       );
     };
 
+    $.loadFiles = loadFiles;
+
     var appendFilesFromFileList = function(fileList, event){
       // check for uploading too many files
       var errorCount = 0;
